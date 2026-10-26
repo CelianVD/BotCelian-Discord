@@ -1,0 +1,18 @@
+# Dépendances Node.js
+node_modules/
+package-lock.json
+
+# Fichiers de configuration / Secrets (très important pour un bot Discord !)
+.env
+config/
+
+# Cache et logs
+apicache/
+*.log
+.DS_Store
+DockerFile
+
+# Fichiers spécifiques à pywikibot (si tu utilises ton bot pour ça aussi)
+user-config.py
+user-password.py
+*.lwp

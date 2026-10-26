@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^9.1.0",
+    "axios": "^1.18.1",
+    "discord.js": "^14.26.5",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^14.4.0",
+    "node-fetch": "^2.7.0"
+  }
+}
